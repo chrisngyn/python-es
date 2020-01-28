@@ -3,5 +3,5 @@
 import math
 
 radius = float(input("Enter radius: ")) # don't forget to cast.
-print ("Circumference is: ", math.pi * radius * 2)
-print ("Area is: ", (math.pi * (radius ** 2)))
+print ("Circumference is: ", round((math.pi * radius * 2), 2))
+print ("Area is: ", round((math.pi * (radius ** 2)), 2))

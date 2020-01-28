@@ -3,10 +3,9 @@ print("Hello, World!")
 print("The average of 4 and 8 is: ", (4 + 8) / 2)
 
 
-# Variables
+# Variables - no need to specify data type (which feels weird i know) but python is smart enough so
 age = 20
 print("My age is", age) # comma adds a space, "",age also works
-
 
 number1 = 10
 number2 = 20
@@ -51,6 +50,7 @@ num3 = num1 / num2
 print(num3)
 print(type(num3))   # automatic change from int to float. why can't you be this way java?
 
-# If you want to use more complex ops like log or trig, we can import MODULES
+# If you want to use more complex ops like log or trig, we can import MODULES like math
 import math
 print(math.factorial(9)) # not just factorial(), need to specify math.factorial
+print(math.pi)
