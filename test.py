@@ -1,3 +1,5 @@
+# Data types: str, int, float, list, tuple, dictionary, boolean
+
 # Statements
 print("Hello, World!")
 print("The average of 4 and 8 is: ", (4 + 8) / 2)

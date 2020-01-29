@@ -28,9 +28,6 @@ print("\n")
 # Alt way of accessing keys
 first_name = "FNAME"
 print(JohnGreen[first_name])
-print("\n")
-
-# Clear dictionary!
 print(JohnGreen)
-JohnGreen.clear()
+JohnGreen.clear()   # Clear dictionary!
 print(JohnGreen)
