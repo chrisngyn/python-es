@@ -8,4 +8,10 @@ import matplotlib.pyplot as plt
 x = [1, 2, 3, 4]
 y = [1500, 1100, 1400, 1200]
 plt.plot(x, y)
+months = ["January", "February", "March", "April"]
+plt.xticks(x, months)
+plt.plot(x, y)
 plt.show()
+plt.bar(x, y)
+plt.title("test")
+plt.ylabel("test2")
