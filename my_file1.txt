@@ -1,0 +1,10 @@
+some text
+some text
+some text
+touch my_file.txt
+vim my_file.txt
+i for insert
+esc to exit
+colon w to save
+colon q to exit
+yay yay yay
