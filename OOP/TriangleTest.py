@@ -14,3 +14,7 @@ print("--------------------------------------------------")
 print(triangle1.area())
 print(triangle2.area())
 print(triangle1.greater_area(triangle2))
+print(triangle2.greater_area(triangle1))
+
+print("--------------------------------------------------")
+help(Triangle)
