@@ -22,3 +22,6 @@ class Car:
     def value(self):
         """Method to return the value of a car."""
         return self.price
+
+    def ping(self):
+        return "Pong!"
