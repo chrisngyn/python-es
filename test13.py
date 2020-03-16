@@ -20,6 +20,6 @@ print(file3.read())
 # the write and append modes can create a file, if we pass a file name that doesn't exist, one will be created
 # though, the read mode will return an error trying to read a file that doesn't exist
 
-file4 = open("my_file4.txt", "x")           # x mode is used to create a file, running this a second time though will return an error since it exists
+# file4 = open("my_file4.txt", "x")           # x mode is used to create a file, running this a second time though will return an error since it exists
 
 # open("/Users/user/Desktop/new_file.txt", "x")   # you can create files in a new directory, just print the full path
