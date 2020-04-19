@@ -3,6 +3,8 @@
 # to type the word at each round. In the end, tell the user how many mistakes were made and
 # show a chart with the typing speed evolution during the five rounds.
 
+# Python typing speed tester.
+
 # 1. import the modules we need.
 import matplotlib.pyplot as plt
 import time
